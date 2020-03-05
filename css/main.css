@@ -102,11 +102,44 @@ html {
 }
 
 body {
+  background-color:  #5c5c3d;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  
   font-size: 1.25em;
   height: 100%;
 }
+
+#main-header {
+  background: url(../img/bw-laptop.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  margin: 0px 0px 10px 0px;
+}
+
+.header1 {
+  align-items: center;
+  color: #fff;
+  display: flex; 
+  font-family: Lora;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin: 70px 0px 5px 50px;
+  padding: 5px 70px 5px 70px;
+  height: 200px;
+    
+}
+
+
+.header2 {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  margin: 5px;
+  padding: 10px 70px 10px 70px;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
@@ -121,16 +154,69 @@ body {
   color: #fff;
   display: flex;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.25rem;
+  border: 1px solid #b8b894;
+  border-radius: 15px;
+  height: 225px;
+  margin:15px;
+  padding: 20px 20px 20px 20px;
   justify-content: center;
   width: 30%;
 }
 
+span, h2, h3 {
+  font-family: Lora;
+  color: #C49075;
+}
 
+.work {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #b8b894;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  height: 250px;
+  justify-content: center;
+  margin: 15px;
+  padding: 5px 20px 5px 20px;
+}
 
+.services-html, .services-css, .services-design {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+    margin: 5px 5px 5px 5px;
+   
+}
 
+.services-html {
+   border-right: 1px solid #b8b894;
+}
+
+.services-design {
+  border-left: 1px solid #b8b894;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: .75rem;
+  font-family: sans-serif;
+  margin: 10px
+  padding:10px;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
